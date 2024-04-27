@@ -1,0 +1,425 @@
+<!DOCTYPE html><html><head><title>Fooocus Log 2024-04-27</title><style>body { background-color: #121212; color: #E0E0E0; } a { color: #BB86FC; } .metadata { border-collapse: collapse; width: 100%; } .metadata .label { width: 15%; } .metadata .value { width: 85%; font-weight: bold; } .metadata th, .metadata td { border: 1px solid #4d4d4d; padding: 4px; } .image-container img { height: auto; max-width: 512px; display: block; padding-right:10px; } .image-container div { text-align: center; padding: 4px; } hr { border-color: gray; } button { background-color: black; color: white; border: 1px solid grey; border-radius: 5px; padding: 5px 10px; text-align: center; display: inline-block; font-size: 16px; cursor: pointer; }button:hover {background-color: grey; color: black;}</style></head><body><script>
+        function to_clipboard(txt) { 
+        txt = decodeURIComponent(txt);
+        if (navigator.clipboard && navigator.permissions) {
+            navigator.clipboard.writeText(txt)
+        } else {
+            const textArea = document.createElement('textArea')
+            textArea.value = txt
+            textArea.style.width = 0
+            textArea.style.position = 'fixed'
+            textArea.style.left = '-999px'
+            textArea.style.top = '10px'
+            textArea.setAttribute('readonly', 'readonly')
+            document.body.appendChild(textArea)
+
+            textArea.select()
+            document.execCommand('copy')
+            document.body.removeChild(textArea)
+        }
+        alert('Copied to Clipboard!\nPaste to prompt area to load parameters.\nCurrent clipboard content is:\n\n' + txt);
+        }
+        </script><p>Fooocus Log 2024-04-27 (private)</p>
+<p>Metadata is embedded if enabled in the config or developer debug mode. You can find the information for each image in line Metadata Scheme.</p><!--fooocus-log-split-->
+
+<div id="2024-04-27_22-19-30_4781_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_22-19-30_4781.png" target="_blank"><img src='2024-04-27_22-19-30_4781.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_22-19-30_4781.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390642</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390642%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_21-41-00_9795_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_21-41-00_9795.png" target="_blank"><img src='2024-04-27_21-41-00_9795.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_21-41-00_9795.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390641</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390641%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_21-03-14_8059_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_21-03-14_8059.png" target="_blank"><img src='2024-04-27_21-03-14_8059.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_21-03-14_8059.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390640</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390640%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_20-25-27_4075_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_20-25-27_4075.png" target="_blank"><img src='2024-04-27_20-25-27_4075.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_20-25-27_4075.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390639</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390639%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_19-47-40_7412_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_19-47-40_7412.png" target="_blank"><img src='2024-04-27_19-47-40_7412.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_19-47-40_7412.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390638</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390638%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_19-09-53_5813_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_19-09-53_5813.png" target="_blank"><img src='2024-04-27_19-09-53_5813.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_19-09-53_5813.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390637</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390637%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_18-32-08_2093_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_18-32-08_2093.png" target="_blank"><img src='2024-04-27_18-32-08_2093.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_18-32-08_2093.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390636</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390636%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_17-54-21_7454_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_17-54-21_7454.png" target="_blank"><img src='2024-04-27_17-54-21_7454.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_17-54-21_7454.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390635</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390635%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_17-16-34_5967_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_17-16-34_5967.png" target="_blank"><img src='2024-04-27_17-16-34_5967.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_17-16-34_5967.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390634</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390634%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_16-38-48_9066_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_16-38-48_9066.png" target="_blank"><img src='2024-04-27_16-38-48_9066.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_16-38-48_9066.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390633</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390633%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_16-01-01_3424_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_16-01-01_3424.png" target="_blank"><img src='2024-04-27_16-01-01_3424.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_16-01-01_3424.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390632</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390632%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_15-23-15_3716_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_15-23-15_3716.png" target="_blank"><img src='2024-04-27_15-23-15_3716.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_15-23-15_3716.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390631</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390631%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_14-45-28_6705_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_14-45-28_6705.png" target="_blank"><img src='2024-04-27_14-45-28_6705.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_14-45-28_6705.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390630</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390630%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_14-07-42_6850_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_14-07-42_6850.png" target="_blank"><img src='2024-04-27_14-07-42_6850.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_14-07-42_6850.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390629</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390629%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_13-29-56_2241_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_13-29-56_2241.png" target="_blank"><img src='2024-04-27_13-29-56_2241.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_13-29-56_2241.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390628</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390628%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_12-52-09_1761_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_12-52-09_1761.png" target="_blank"><img src='2024-04-27_12-52-09_1761.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_12-52-09_1761.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390627</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390627%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_12-14-24_3373_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_12-14-24_3373.png" target="_blank"><img src='2024-04-27_12-14-24_3373.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_12-14-24_3373.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390626</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390626%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_11-36-26_2406_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_11-36-26_2406.png" target="_blank"><img src='2024-04-27_11-36-26_2406.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_11-36-26_2406.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Yevgeny Prigozhin is sitting at a roulette table in a tailcoat. There are 4 more men in a tailcoat and one woman in a dress sitting at the table. Above the table there is a lamp illuminating the table and people's faces, it is dark behind them</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>181451188909390625</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Yevgeny%20Prigozhin%20is%20sitting%20at%20a%20roulette%20table%20in%20a%20tailcoat.%20There%20are%204%20more%20men%20in%20a%20tailcoat%20and%20one%20woman%20in%20a%20dress%20sitting%20at%20the%20table.%20Above%20the%20table%20there%20is%20a%20lamp%20illuminating%20the%20table%20and%20people%27s%20faces%2C%20it%20is%20dark%20behind%20them%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%22181451188909390625%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-04-27_10-34-49_2348_png" class="image-container"><hr><table><tr>
+<td><a href="2024-04-27_10-34-49_2348.png" target="_blank"><img src='2024-04-27_10-34-49_2348.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-04-27_10-34-49_2348.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>Evgeny Prigozhin is playing the game "What, Where, When?"</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Cel Shaded Art']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Quality</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1152, 896)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>4</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>juggernautXL_v8Rundiffusion.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>3827582121961531321</td></tr>
+<tr><td class='label'>LoRA 1</td><td class='value'>sd_xl_offset_example-lora_1.0.safetensors : 0.1</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.3.1</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22Evgeny%20Prigozhin%20is%20playing%20the%20game%20%5C%22What%2C%20Where%2C%20When%3F%5C%22%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27Cel%20Shaded%20Art%27%5D%22%2C%0A%22performance%22%3A%20%22Quality%22%2C%0A%22resolution%22%3A%20%22%281152%2C%20896%29%22%2C%0A%22guidance_scale%22%3A%204%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22juggernautXL_v8Rundiffusion.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22seed%22%3A%20%223827582121961531321%22%2C%0A%22lora_combined_1%22%3A%20%22sd_xl_offset_example-lora_1.0.safetensors%20%3A%200.1%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.3.1%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+
+<!--fooocus-log-split--></body></html>
